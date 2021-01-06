@@ -1,0 +1,22 @@
+#jumbo {
+
+    animation-name: jumbo;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes jumbo {
+    from {
+        box-shadow: 4px 2px 2px black;
+    }
+
+    to {
+        box-shadow: 15px 10px 10px black;
+    }
+}
+
+#nav {
+    box-shadow: 15px 10px 10px black;
+}
